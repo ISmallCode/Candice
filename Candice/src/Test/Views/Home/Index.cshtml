@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <form id="form" action="~/Home/Upload" method="post" encType="multipart/form-data">
+        <input type="file" name="file" multiple />
+        <button type="submit">立即提交</button>
+    </form>
+</div>
